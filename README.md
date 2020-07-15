@@ -2,6 +2,16 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
 
+## Install
+
+Clone this repo:
+```
+ $ git clone https://github.com/moritzmitterdorfer/angular-giphy.git
+```
+
+Set API key:
+Set Giphy API key (therefore you have to sign up at Giphy and create a new app) in `./src/app/giphy.service.ts`.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
