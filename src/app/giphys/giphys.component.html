@@ -1,0 +1,10 @@
+<app-search-bar [callback]="searchCallback"></app-search-bar>
+
+<div id="wrapper">
+    <div class="giphy" *ngFor="let giphy of giphys | async">
+        <img src="{{giphy.url}}" alt="{{giphy.id}} cannot be displayed">
+    </div>
+</div>
+
+<div infiniteScroll [infiniteScrollDistance]="2" [infiniteScrollThrottle]="1000" (scrolled)="onScroll()"></div>
+<loading-spinner *ngIf="!finished"></loading-spinner>

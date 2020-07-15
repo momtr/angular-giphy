@@ -1,0 +1,14 @@
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10%;
+}
+
+.giphy {
+    max-width: 50%;
+}
+
+.giphy img {
+    width: 100%;
+}
